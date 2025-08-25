@@ -14,10 +14,11 @@ packages:
   gitUsername: ArtiKhare
   gitBranch: master
 - name: CurrentDatePackage
+  version: sdjfhsjfhsdl
   gitServerName: src_shared_GithubCtrl_Arti
   gitUrl: https://github.com/ArtiKhareIBM
   gitUsername: ArtiKhareIBM
-  gitBranch: main
+  gitBranch: testversion
 services:
 - serviceName: project.sergh2508.integrations:azrepoPackage
   packages:
@@ -26,7 +27,7 @@ services:
   - name: AddIntsPackage
     version: "1.0"
   - name: CurrentDatePackage
-    version: '!!!!'
+    version: sdjfhsjfhsdl
 - serviceName: AddIntsPackage:addIntsFS
   packages:
   - name: AddIntsPackage
